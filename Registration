@@ -6,7 +6,6 @@
 <body>
     <h2>Registration Form</h2>
     <form>
-        <!-- Name Fields -->
         <label for="firstname">First Name:</label><br>
         <input type="text" id="firstname" name="firstname"><br><br>
 
@@ -19,15 +18,12 @@
         <label for="suffix">Suffix:</label><br>
         <input type="text" id="suffix" name="suffix" placeholder="e.g., Jr., Sr., III"><br><br>
 
-        <!-- Year and Section -->
         <label for="yearsection">Year and Section:</label><br>
         <input type="text" id="yearsection" name="yearsection" placeholder="e.g., 2A, 3B"><br><br>
 
-        <!-- ID Number -->
         <label for="idnumber">ID Number:</label><br>
         <input type="text" id="idnumber" name="idnumber"><br><br>
 
-        <!-- Technology Program -->
         <label for="technology">Technology Program:</label><br>
         <select id="technology" name="technology">
             <option value="">--Select Program--</option>
@@ -37,7 +33,6 @@
             <option value="delet">Diploma of Electrical Engineering Technology</option>
         </select><br><br>
 
-        <!-- Submit and Reset -->
         <input type="submit" value="Register">
         <input type="reset" value="Reset">
     </form>
