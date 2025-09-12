@@ -1,0 +1,1 @@
+<?php if ($_SERVER["REQUEST_METHOD"] == "POST") { $firstname = $_POST["firstname"]; $middlename = $_POST["middlename"]; $lastname = $_POST["lastname"]; $suffix = $_POST["suffix"]; $yearsection = $_POST["yearsection"]; $idnumber = $_POST["idnumber"]; $technology = $_POST["technology"]; // Here you can add code to process the form data, such as saving it to a database } ?>
